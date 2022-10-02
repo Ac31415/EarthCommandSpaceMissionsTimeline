@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          src={process.env.PUBLIC_URL + 'whiteLogo.png'}
+          src={process.env.PUBLIC_URL + '/whiteLogo.png'}
           className="App-logo"
           alt="logo"
         />
