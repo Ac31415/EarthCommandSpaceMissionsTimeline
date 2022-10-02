@@ -11,6 +11,18 @@ function App() {
           alt="logo"
         />
       </header>
+
+      <h2>Team Name: Earth Command</h2>
+      <h3>Team members</h3>
+
+      <ul>
+        <li><h5>List Item 1</h5></li>
+        <li><h5>List Item 1</h5></li>
+        <li><h5>List Item 1</h5></li>
+        <li><h5>List Item 1</h5></li>
+        <li><h5>List Item 1</h5></li>
+      </ul>
+
       <Timeline />
     </div>
   );
