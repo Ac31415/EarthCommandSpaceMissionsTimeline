@@ -6,9 +6,9 @@ Earth Mission
 
 ## Members:
 
-- Natalia
-- Byron
-- Samar
-- Rye
+- Natalia Bulaieva
+- Byron Torres
+- Samar GamalEdeen
+- Shaurya Sareen (Rye)
 - Lily
 - Wen-Chung (Andy)
