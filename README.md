@@ -10,5 +10,5 @@ Earth Mission
 - Byron Torres
 - Samar GamalEdeen
 - Shaurya Sareen (Rye)
-- Lily
+- Lily MacFaydian
 - Wen-Chung (Andy)
