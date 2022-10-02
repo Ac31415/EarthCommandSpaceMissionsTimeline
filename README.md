@@ -11,4 +11,4 @@ Earth Mission
 - Samar
 - Rye
 - Lily
-- Wen Chung
+- Wen-Chung (Andy)
