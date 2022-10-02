@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <h1>Team Name: Earth Command</h1>
+        <h1>Team Name: Earth Mission</h1>
 
         <img
           src={process.env.PUBLIC_URL + '/whiteLogo.png'}

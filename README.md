@@ -1,8 +1,8 @@
-# EarthCommandSpaceMissionsTimeline
+# EarthMissionSpaceMissionsTimeline
 
 ## Team Name:
 
-Earth Command
+Earth Mission
 
 ## Members:
 
