@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EarthCommandSpaceMissionsTimeline/static/css/main.7006de0f.css",
-    "main.js": "/EarthCommandSpaceMissionsTimeline/static/js/main.40691c09.js",
+    "main.css": "/EarthCommandSpaceMissionsTimeline/static/css/main.a57665ef.css",
+    "main.js": "/EarthCommandSpaceMissionsTimeline/static/js/main.379ab84e.js",
     "static/js/787.0761144c.chunk.js": "/EarthCommandSpaceMissionsTimeline/static/js/787.0761144c.chunk.js",
     "index.html": "/EarthCommandSpaceMissionsTimeline/index.html",
-    "main.7006de0f.css.map": "/EarthCommandSpaceMissionsTimeline/static/css/main.7006de0f.css.map",
-    "main.40691c09.js.map": "/EarthCommandSpaceMissionsTimeline/static/js/main.40691c09.js.map",
+    "main.a57665ef.css.map": "/EarthCommandSpaceMissionsTimeline/static/css/main.a57665ef.css.map",
+    "main.379ab84e.js.map": "/EarthCommandSpaceMissionsTimeline/static/js/main.379ab84e.js.map",
     "787.0761144c.chunk.js.map": "/EarthCommandSpaceMissionsTimeline/static/js/787.0761144c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7006de0f.css",
-    "static/js/main.40691c09.js"
+    "static/css/main.a57665ef.css",
+    "static/js/main.379ab84e.js"
   ]
 }
