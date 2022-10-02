@@ -1,10 +1,26 @@
 .App {
   text-align: center;
+  background-color:#0042A6;
+
+}
+
+.title {
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-header {
+  height:200px;
+  padding: 50;
+  background-color: #00262b;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -68,4 +84,16 @@ background-color:#DEDEDE;
 
 ul{
 font-variant:small-caps;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
 }
