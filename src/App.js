@@ -1,5 +1,9 @@
 import './App.css';
-import { Timeline } from './Timeline/Timeline'
+import { Timeline } from './Timeline/Timeline';
+// import { Storybook } from './Storybook/Storybook';
+//
+// import { render } from 'react-dom';
+// import FigmaEmbed from 'react-figma-embed';
 
 function App() {
   return (
