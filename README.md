@@ -11,4 +11,4 @@ Earth Mission
 - Samar GamalEdeen
 - Shaurya Sareen (Rye)
 - Lily MacFaydian
-- Wen-Chung (Andy)
+- Wen-Chung Cheng (Andy)
