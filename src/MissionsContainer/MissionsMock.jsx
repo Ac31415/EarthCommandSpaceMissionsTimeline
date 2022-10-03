@@ -67,8 +67,6 @@ export const missions = [
       "The CALIPSO satellite provides new insight into the role that clouds and atmospheric aerosols play in regulating Earth's weather, climate, and air quality.",
   },
 
-  { name: "cassini", icon: "cassini-sm.png", description: "", type: "" },
-
   { name: "Chandra", icon: "chandrayaan1-sm.png", description: "", type: "" },
 
   {
@@ -82,7 +80,6 @@ export const missions = [
   { name: "Clementine", icon: "Clementine-sm.png", type: "" },
   { name: "CloudSat", icon: "CloudSat_0.png", type: "Atmosphere" },
   { name: "COBE", icon: "COBE-sm.png", type: "Hurricanes" },
-  { name: "contour", icon: "contour-sm.png", type: "Hurricanes" },
   { name: "Curiosity", icon: "Curiosity-sm.png", type: "Sun and its Influence on Earth" },
   { name: "Curiosity", icon: "Curiosity-sm.png", type: "" },
   { name: "CYGNSS fleet", icon: "CYGNSS-Fleet-sm.png", type: "Hurricanes" },
@@ -106,12 +103,7 @@ export const missions = [
   { name: "Geotail", icon: "Geotail-sm.png", type: "Sun and its Influence on Earth" },
   { name: "Glory", icon: "Glory-sm_0.png", type: "Atmosphere" },
   { name: "GOES R", icon: "GOES_R-sm.png", type: "Water Cycle" },
-
   { name: "GPM", icon: "GPM-sm.png", type: "Space Exploration" },
-
-  { name: "Grace", icon: "Grace-sm.png", type: "Wildfires" },
-
-  { name: "Grail", icon: "Grail-sm.png", type: "Wildfires" },
   { name: "Gulf Stream ", icon: "Gulf_Stream-sm.png", type: "" },
   { name: "Herschel", icon: "Herschel-sm.png", type: "" },
   { name: "HETE", icon: "HETE_1_2-sm.png", type: "" },
