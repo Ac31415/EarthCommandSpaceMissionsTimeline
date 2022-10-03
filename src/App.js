@@ -16,7 +16,13 @@ function App() {
         <Container>
         <Row className="justify-content-md-center">
         {missions.map(mission => {
-          return <MissionCard name={mission.name} icon={mission.icon} />
+          return (
+            <MissionCard
+              name={mission.name}
+              icon={mission.icon}
+              description={mission.description}
+            />
+          );
         })}
         </Row>
         </Container>

@@ -1,16 +1,67 @@
 
 export const missions = [
-  { name: "ACE", icon: "ACE-sm.png" },
-  { name: "ACRIMSAT", icon: "ACRIMSAT-sm.png" },
-  { name: "AIM", icon: "AIM-sm.png" },
-  { name: "Aqua", icon: "Aqua-sm.png" },
-  { name: "Aquarius", icon: "Aquarius-sm.png" },
-  { name: "Aura", icon: "Aura-sm.png" },
-  { name: "BepiColumbo", icon: "BepiColumbo-sm.png" },
-  { name: "Calipso", icon: "Calipso-sm.png" },
-  { name: "cassini", icon: "cassini-sm.png" },
-  { name: "Chandra", icon: "Chandra-sm.png" },
-  { name: "Chandrayaan", icon: "Chandrayaan-sm.png" },
+  {
+    name: "ACE",
+    icon: "ACE-sm.png",
+    description:
+      "Advanced Composition Explorer (ACE or Explorer 71) is a NASA Explorer program satellite and space exploration mission to study matter comprising energetic particles from the solar wind, the interplanetary medium, and other sources.",
+  },
+
+  {
+    name: "ACRIMSAT",
+    icon: "ACRIMSAT-sm.png",
+    description:
+      "The Active Cavity Radiometer Irradiance Monitor Satellite, or ACRIMSAT was a satellite carrying the ACRIM-3 (Active Cavity Radiometer Irradiance Monitor 3) instrument. It was one of the 21 observational components of NASA's Earth Observing System program. The instrument followed upon the ACRIM-1 and ACRIM-2 instruments that were launched on multi-instrument satellite platforms.",
+  },
+
+  {
+    name: "AIM",
+    icon: "AIM-sm.png",
+    description:
+      "AIM's mission is to study the physical and chemical processes that give rise to these mysterious polar mesospheric clouds, or PMCs.",
+  },
+
+  {
+    name: "Aqua",
+    icon: "Aqua-sm.png",
+    description:
+      "Aqua, Latin for water, is a NASA Earth Science satellite mission named for the large amount of information that the mission is collecting about the Earth's water cycle, including evaporation from the oceans, water vapor in the atmosphere, clouds, precipitation, soil moisture, sea ice, land ice, and snow cover on the land and ice. Additional variables also being measured by Aqua include radiative energy fluxes, aerosols, vegetation cover on the land, phytoplankton and dissolved organic matter in the oceans, and air, land, and water temperatures.",
+  },
+
+  {
+    name: "Aquarius",
+    icon: "Aquarius-sm.png",
+    description:
+      "NASA's Aquarius was the primary instrument on the SAC-D spacecraft. It consisted of three passive microwave radiometers to detect the surface ",
+  },
+
+  {
+    name: "Aura",
+    icon: "Aura-sm.png",
+    description:
+      "Aura is a NASA mission to study Earth's ozone, air quality, and climate and conduct research on the composition, chemistry, and dynamics of Earth's .",
+  },
+
+  {
+    name: "BepiColumbo",
+    icon: "BepiColumbo-sm.png",
+    description:
+      "BepiColombo is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) to the planet Mercury.[4] The mission comprises two satellites launched together: the Mercury Planetary Orbiter (MPO) and Mio (Mercury Magnetospheric Orbiter, MMO).",
+  },
+
+  {
+    name: "Calipso",
+    icon: "Calipso-sm.png",
+    description:
+      "The CALIPSO satellite provides new insight into the role that clouds and atmospheric aerosols play in regulating Earth's weather, climate, and air quality.",
+  },
+
+  { name: "cassini", icon: "cassini-sm.png", description: "" },
+
+  { name: "Chandra", icon: "Chandra-sm.png", description: "" },
+
+  { name: "Chandrayaan", icon: "Chandrayaan-sm.png", description: "" },
+
   { name: "Cindi cnofs", icon: "Cindi-sm.png cnofs" },
   { name: "Clementine", icon: "Clementine-sm.png" },
   { name: "CloudSat", icon: "CloudSat-sm.png" },
