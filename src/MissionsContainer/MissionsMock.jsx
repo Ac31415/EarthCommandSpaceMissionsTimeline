@@ -11,7 +11,7 @@ export const missions = [
     name: "ACRIMSAT",
     icon: "ACRIMSAT-sm.png",
     description:
-      "The Active Cavity Radiometer Irradiance Monitor Satellite, or ACRIMSAT was a satellite carrying the ACRIM-3 (Active Cavity Radiometer Irradiance Monitor 3) instrument. It was one of the 21 observational components of NASA's Earth Observing System program. The instrument followed upon the ACRIM-1 and ACRIM-2 instruments that were launched on multi-instrument satellite platforms.",
+      "The Active Cavity Radiometer Irradiance Monitor Satellite, or ACRIMSAT was a satellite carrying the ACRIM-3 (Active Cavity Radiometer Irradiance Monitor 3) instrument. It was one of the 21 observational components of NASA's Earth Observing System program.",
   },
 
   {
@@ -25,7 +25,7 @@ export const missions = [
     name: "Aqua",
     icon: "Aqua-sm.png",
     description:
-      "Aqua, Latin for water, is a NASA Earth Science satellite mission named for the large amount of information that the mission is collecting about the Earth's water cycle, including evaporation from the oceans, water vapor in the atmosphere, clouds, precipitation, soil moisture, sea ice, land ice, and snow cover on the land and ice. Additional variables also being measured by Aqua include radiative energy fluxes, aerosols, vegetation cover on the land, phytoplankton and dissolved organic matter in the oceans, and air, land, and water temperatures.",
+      "Aqua, Latin for water, is a NASA Earth Science satellite mission named for the large amount of information that the mission is collecting about the Earth's water cycle.",
   },
 
   {
