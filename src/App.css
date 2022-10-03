@@ -62,7 +62,7 @@ background-color:#FFFFFF;
 
 h1{font-size:1.5em;}
 /* h2{font-size:1.2em; color:#333333;} */
-h2{font-size:1.2em; color:#CCCCCC;}
+h2{font-size:1.2em; color:#CCCCCC; padding-top: 50px; padding-bottom: 25px;}
 h3{font-size:1em; color:#666666;}
 h4{font-size:.9em; color:#999999;}
 h5{font-size:.8em; color:#CCCCCC;}

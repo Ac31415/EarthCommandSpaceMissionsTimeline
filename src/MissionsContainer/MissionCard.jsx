@@ -3,8 +3,9 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import React, { useState } from 'react';
 import { Timeline } from '../Timeline/Timeline'
+import Badge from 'react-bootstrap/Badge';
 
-export const MissionCard = ({ name, icon, description }) => {
+export const MissionCard = ({ name, icon, description, status }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -17,7 +18,11 @@ export const MissionCard = ({ name, icon, description }) => {
         <Card.Img variant="top" src={imageLocation} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text>{description}</Card.Text>
+          <Card.Text>
+          <Badge bg="secondary">{status}</Badge>
+          {''}
+            {description}
+            </Card.Text>
           <Button variant="dark" onClick={handleShow}>
             Open timeline
           </Button>

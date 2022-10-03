@@ -1,7 +1,8 @@
 import './App.css';
 import { MissionCard } from './MissionsContainer/MissionCard'
+import { MissionsContainer } from './MissionsContainer/MissionsContainer'
 import { Storybook } from './Storybook/Storybook'
-import {missions } from './MissionsContainer/MissionsMock'
+import { missions, categories } from "./MissionsContainer/MissionsMock";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
@@ -15,7 +16,9 @@ function App() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-    
+  const uncategorizedMissions = missions.filter(
+    (mission) => mission.type === ""
+  );
   return (
     <>
       <div className="App">
@@ -28,12 +31,15 @@ function App() {
         <section>
           <Container>
             <Row className="justify-content-md-center">
-              {missions.map((mission) => {
+              <MissionsContainer missions={uncategorizedMissions} />
+              {categories.map((category) => {
+                const filteredMissions = missions.filter(
+                  (mission) => mission.type === category
+                );
                 return (
-                  <MissionCard
-                    name={mission.name}
-                    icon={mission.icon}
-                    description={mission.description}
+                  <MissionsContainer
+                    missions={filteredMissions}
+                    category={category}
                   />
                 );
               })}
