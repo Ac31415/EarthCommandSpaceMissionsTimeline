@@ -1,18 +1,28 @@
 import './App.css';
-import { Timeline } from './Timeline/Timeline';
-// import { Storybook } from './Storybook/Storybook';
-//
-// import { render } from 'react-dom';
-// import FigmaEmbed from 'react-figma-embed';
+import { MissionCard } from './MissionsContainer/MissionCard'
+import {missions } from './MissionsContainer/MissionsMock'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function App() {
+  const mission = { name: "ACE", icon: "ACE-sm.png" }
+    const imageLocation = `${process.env.PUBLIC_URL}/missions/${mission.icon}`
   return (
     <div className="App">
       <header className="header">
         <h1 className="title">Team Name: Earth Mission</h1>
       </header>
       <section>
-        <Timeline />
+        <Container>
+        <Row className="justify-content-md-center">
+        {missions.map(mission => {
+          return <MissionCard name={mission.name} icon={mission.icon} />
+        })}
+        </Row>
+        </Container>
+
+        <img src={imageLocation} height="40" width="80" alt=''/>
+
         <h2>Team members:</h2>
         <ul>
           <li>
